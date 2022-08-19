@@ -15,6 +15,15 @@ M.treesitter = {
     "lua",
     "norg",
   },
+  highlight = {
+    enable = true,
+  },
+  auto_install = true,
+  rainbow = {
+    enable = true,
+    extended_mode = true,
+    max_file_lines = nil,
+  }
 }
 
 M.nvimtree = {

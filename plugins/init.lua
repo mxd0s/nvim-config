@@ -56,4 +56,5 @@ return {
       require "custom.plugins.lspconfig"
     end,
   },
+  ['p00f/nvim-ts-rainbow'] = {},
 }
