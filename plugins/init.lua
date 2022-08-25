@@ -57,4 +57,17 @@ return {
     end,
   },
   ['p00f/nvim-ts-rainbow'] = {},
+  ['APZelos/blamer.nvim'] = {},
+  ['https://git.sr.ht/~whynothugo/lsp_lines.nvim'] = {
+    config = function()
+      require("lsp_lines").setup()
+    end
+  },
+  ["glepnir/lspsaga.nvim"] = {
+    branch = "main",
+    config = function()
+      require "custom.plugins.lspsaga"
+    end
+  },
+  ["ellisonleao/glow.nvim"] = {}
 }
